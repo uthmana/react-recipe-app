@@ -21,7 +21,7 @@ async getRecipes(){
   try{
     const data = await fetch(this.state.url);
     const jsonData = await data.json();
-    console.log(jsonData);
+//     console.log(jsonData);
     if (jsonData.recipes.length === 0) {
       this.setState(()=>{
         return {error: 'Sorry, but your search did not return any results'}
