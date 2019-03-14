@@ -34,7 +34,7 @@ async getRecipes(){
 
     }
   }catch(error){
-console.log(error);
+// console.log(error);
 
   }
 
@@ -80,7 +80,7 @@ handleChange = e => {
 
 },
 () => {
-  console.log(this.state.search);
+//   console.log(this.state.search);
 })
 }
 
